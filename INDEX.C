@@ -30,5 +30,11 @@ int main()
 
     int index = linrarserch(arr, n, key);
 
+    if (index != -1) {
+        printf("Element found at index: %d\n", index);
+    } else {
+        printf("Element not found in the array.\n");
+    }
+
     return 0;
 }
